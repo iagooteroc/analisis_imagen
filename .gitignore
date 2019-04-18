@@ -1,4 +1,6 @@
 P1/dataset/
 P2/dataset/
+P1/.ipynb_checkpoints/
+P2/.ipynb_checkpoints/
 *.png
 
