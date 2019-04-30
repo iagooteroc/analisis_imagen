@@ -1,0 +1,24 @@
+P3: Fitoplancton
+3 especies identificadas de fitoplancton. En las que no tiene nombre es porque hay varias.
+Se busca:
+segmentar lo que es el fondo de las especies, intentar separar cada una de las colonias de fitoplancton (no las células por separado) y por otro lado intentar hacer una estimación del volumen.
+· Segmentar
+· Estimar volumen
+Las imágenes tienen un fondo muy uniforme que es fácilmente modelable y todo lo que no sea fondo es objeto. Luego separar las colonias por componentes conexas y luego los objetos separados estimar su volumen.
+Para estimar el volumen:
+considerar el área de cada una de las especies y de la imagen.
+No se traduce lo mismo este área de unas especies como los gusanitos. La proporción área-volumen es mucho menor en los gusanitos que las otras.
+Una aprox básica sería conseguir el área pero lo que vamos a intentar sería separar las Anabaena spiroides de las otras dos.
+Y en función de esto hacer una estimación diferente del volumen. A partir del área puedo calcular una fórmula que me extraiga el volumen. El gusanito puede ser como un cilindro. En las otras puede ser como una esfera.
+Por ejemplo, el gusanito: grosor medio del churro y longitud total. Longitud x ancho = área. Si tienes el áncho medio y el área puedo calcular la longitud y con ello el volumen del cilindro.
+En las otras simplemente calcular el diámetro inferior y mayor y calcular el elipsoide.
+Podemos hacer solamente las imágenes individuales.
+
+Semana del 27 de mayo tenerla
+si no protestamos la podemos entregar más tarde, antes del cierre de actas (21 de junio)
+Entrega límite miércoles 12 de junio, defendida antes del 19.
+
+Se esperan resultados muy diferentes.
+En el tema de la mamografía la segmentación es mucho más sencilla y se espera una precisión alta de segmentación
+En el mio es totalmente lo contrario. Como mucho modelar mas o menos bien el fondo pero no pretender delimitar las diferentes células al milímetro y perfectamente. Si hay fallos de segmentación no importa. Da un poco igual que el volumen esté calculado decenas de píxeles arriba o abajo. La extrapolación será muy burda igualmente. También es un problema con mayor diversidad entonces es más complejo, es diferente.
+La defensa: vamos con el portatil y explicamos lo que hicimos y él nos hace preguntas.
