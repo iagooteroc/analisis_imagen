@@ -22,3 +22,6 @@ Se esperan resultados muy diferentes.
 En el tema de la mamografía la segmentación es mucho más sencilla y se espera una precisión alta de segmentación
 En el mio es totalmente lo contrario. Como mucho modelar mas o menos bien el fondo pero no pretender delimitar las diferentes células al milímetro y perfectamente. Si hay fallos de segmentación no importa. Da un poco igual que el volumen esté calculado decenas de píxeles arriba o abajo. La extrapolación será muy burda igualmente. También es un problema con mayor diversidad entonces es más complejo, es diferente.
 La defensa: vamos con el portatil y explicamos lo que hicimos y él nos hace preguntas.
+
+07/05/2019
+Podemos elegir 10x o 40x. Si queremos usar todas, deberíamos reescalar las imágenes para que todas tengan la misma resolución. Las de 40x podríamos dividirlas a 1/4.
